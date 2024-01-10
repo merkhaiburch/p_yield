@@ -1,7 +1,11 @@
-# p_yield
+# Scale up trials to validate modified crops’ benefits
 
+
+#### Description:
 Scripts to investigate yield data over time, publication prevalence across different journals and databases, and to understand yield gaps in different crops.
 
+
+#### Directory structure:
 - $data/$: Contains various datasets required for analyses.
 - $figs/$: Contains the figures generated from the above data.
 - $src/$: Source code associated with all data analysis
