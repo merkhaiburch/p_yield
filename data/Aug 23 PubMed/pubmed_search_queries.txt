@@ -1,0 +1,10 @@
+# PubMed search 2.0
+
+# Genomic Selection Papers -----------------------------------------------------------
+
+(("crop") OR ("plant") OR ("seed") OR ("maize") OR ("wheat") OR ("rice") OR ("soybean") OR ("cassava") OR ("potato") OR ("sorghum")) AND (yield) AND (("genomic prediction") OR ("genomic selection") OR ("genome enabled prediction") OR ("genome wide prediction") OR ("whole genome regression") OR ("genomic enabled prediction"))
+
+
+# Plant Science Papers -------------------------------------------------------------
+
+(("crop") OR ("plant") OR ("seed") OR ("maize") OR ("wheat") OR ("rice") OR ("soybean") OR ("cassava") OR ("potato") OR ("sorghum")) AND ("yield") AND (("transgenic") OR ("transgene") OR ("CRISPR") OR ("transformation") OR ("genetic construct") OR ("transformed") OR ("Agrobacterium") OR ("genetically engineered") OR ("genetically modified"))

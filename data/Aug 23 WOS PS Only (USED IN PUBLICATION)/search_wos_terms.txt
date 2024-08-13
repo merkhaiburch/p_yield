@@ -1,0 +1,41 @@
+# Genomic Selection Papers -----------------------------------------------------------
+# Chose only the "Plant Science" WOS categories for both transgenic and gs to filter papers
+
+# Final search
+#8 AND #7 AND #5 AND #2 AND #1
+
+Query #8
+WC=(Plant Sciences)
+
+Query #7
+DT=(Article)
+
+Query #5
+(((((((((ALL=(crop)) OR ALL=(plant)) OR ALL=(seed)) OR ALL=(maize)) OR ALL=(wheat)) OR ALL=(rice)) OR ALL=(soybean)) OR ALL=(cassava)) OR ALL=(potato)) OR ALL=(sorghum)
+
+Query #2
+ALL=(yield)
+
+Query #1
+(((((ALL=("genomic prediction")) OR ALL=("genomic selection")) OR ALL=("genome enabled prediction")) OR ALL=("genome wide prediction")) OR ALL=("whole genome regression")) OR ALL=("genomic enabled prediction")
+
+
+# Plant Science Papers -------------------------------------------------------------
+
+# Final search
+#7 AND #8 AND #5 AND #4 AND #2
+
+Query #7
+DT=(Article)
+
+Query #8
+WC=(Plant Sciences)
+
+Query #5
+(((((((((ALL=(crop)) OR ALL=(plant)) OR ALL=(seed)) OR ALL=(maize)) OR ALL=(wheat)) OR ALL=(rice)) OR ALL=(soybean)) OR ALL=(cassava)) OR ALL=(potato)) OR ALL=(sorghum)
+
+Query #4
+((((((((ALL=(transgenic)) OR ALL=(transgene)) OR ALL=(CRISPR)) OR ALL=(transformation)) OR ALL=("genetic construct")) OR ALL=(transformed)) OR ALL=(Agrobacterium)) OR ALL=("genetically engineered")) OR ALL=("genetically modified")
+
+Query #2
+ALL=(yield)

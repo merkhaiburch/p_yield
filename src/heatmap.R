@@ -9,7 +9,7 @@
 # ------------------------------------------------------------------------------
 
 # set working directory
-setwd("/Users/mbb262-admin/Library/CloudStorage/Box-Box/Cornell_PhD/thesis/bad_yield_papers/")
+setwd("/Users/merkhaiburch/Documents/Box Backup Feb 21 2024/git_projects/p_yield/")
 
 #pakcages
 library(dplyr)
@@ -218,6 +218,7 @@ ggsave("images/rice_heatmap_v2.png",
        height = 10,
        width = 10,
        units = "in")
+
 
 # Not Rice -------------------------------
 
