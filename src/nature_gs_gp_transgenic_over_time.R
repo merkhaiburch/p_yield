@@ -2,7 +2,7 @@
 # Author.... Merritt Khaipho-Burch
 # Contact... mbb262@cornell.edu
 # Date...... 2023-08-16
-# Updated... 2023-08-16
+# Updated... 2024-08-12
 #
 # Description:
 # Plot rise in transgenic yield papers across fields pulled from pubmed
@@ -90,29 +90,32 @@ v4 <- ggplot(together_agg, aes(x = Year, y = Count, fill = Type)) +
 v4
 
 # Save to file
-ggsave("../images/thesis_webofscience_transgenic_gsgp_yield_year_plant_science_only.png",
+ggsave("images/thesis_webofscience_transgenic_gsgp_yield_year_plant_science_only.png",
        v4, width = 6, height = 4, units = "in")
 
 
 # Format pubmed data -----------------------------------------------------------
 
-# Load transgenic studies (already aggregated by year), add identifier
-trans <- read.csv("data/Aug 23 PubMed/transgenic_Results_by_Year.csv")
-trans$id <- rep("Transgenic", nrow(trans))
+# # Load transgenic studies (already aggregated by year), add identifier
+# trans <- read.csv("data/Aug 23 PubMed/transgenic_Results_by_Year.csv")
+# trans$id <- rep("Transgenic", nrow(trans))
+# 
+# # Load in genomic prediction studies (already aggregated by year), add identifier
+# gs <- read.csv("data/Aug 23 PubMed/gs_Results_by_Year.csv")
+# gs$id <- rep("Genomic Selection", nrow(gs))
+# 
+# # Combine all, remove 2023
+# together <- rbind(trans, gs) %>% 
+#   filter(Year <= 2022 & Year >= 1990)
+# 
+# # Change column names
+# colnames(together) <- c("Year", "Count", "Type")
+# 
+# # Write data to file
+# write.csv(together, "Aug 23 PubMed/pubmed_article_count_yield.csv", quote = F, row.names = F)
 
-# Load in genomic prediction studies (already aggregated by year), add identifier
-gs <- read.csv("data/Aug 23 PubMed/gs_Results_by_Year.csv")
-gs$id <- rep("Genomic Selection", nrow(gs))
-
-# Combine all, remove 2023
-together <- rbind(trans, gs) %>% 
-  filter(Year <= 2022 & Year >= 1990)
-
-# Change column names
-colnames(together) <- c("Year", "Count", "Type")
-
-# Write data to file
-write.csv(together, "Aug 23 PubMed/pubmed_article_count_yield.csv", quote = F, row.names = F)
+# Read data in a skip the above steps
+together <- read.csv("data/Aug 23 PubMed/pubmed_article_count_yield.csv")
 
 
 # Make the pub med data plot ---------------------------------------------------
@@ -127,7 +130,7 @@ v5 <- ggplot(together, aes(x = Year, y = Count, fill = Type)) +
 v5
 
 # Save to file
-ggsave("../images/thesis_pubmed_transgenic_gsgp_yield_year_no2023_quotes_additional_terms.png", v5,
+ggsave("images/thesis_pubmed_transgenic_gsgp_yield_year_no2023_quotes_additional_terms.png", v5,
        width = 6, height = 4, units = "in")
 
 
