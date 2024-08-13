@@ -1,20 +1,54 @@
 
-.DS_Store
+src/.Rhistory
 
-data/Aug 22 WOS/
+src/.DS_Store
 
-data/Aug 23 PubMed/
+data/Aug 23 WOS PS Only (USED IN PUBLICATION)/trans_1.txt
 
-data/Aug 23 WOS 5 categories/
+data/Aug 23 WOS PS Only (USED IN PUBLICATION)/trans_2.txt
 
-data/Aug 23 WOS PS Only (USED IN PUBLICATION)/
+data/Aug 23 WOS PS Only (USED IN PUBLICATION)/trans_3.txt
 
-data/other_wos_pubmed/
+data/Aug 23 WOS PS Only (USED IN PUBLICATION)/trans_4.txt
 
-data/Aug 21 web of science/
+data/Aug 23 WOS PS Only (USED IN PUBLICATION)/trans_5.txt
 
-data/wos/
+data/Aug 23 WOS PS Only (USED IN PUBLICATION)/trans_6.txt
 
-images/
+data/wos/all_journals_gs_gp_1.csv
 
-data/
+data/wos/all_journals_gs_gp_1.xls
+
+data/wos/all_journals_gs_gp_2.csv
+
+data/wos/all_journals_gs_gp_2.xls
+
+data/wos/all_journals_gs_gp_3.csv
+
+data/wos/all_journals_gs_gp_3.xls
+
+data/wos/all_journals_gs_gp_4.csv
+
+data/wos/all_journals_gs_gp_4.xls
+
+data/wos/all_journals_gs_gp_5.1.csv
+
+data/wos/all_journals_gs_gp_5.1.xls
+
+data/wos/all_journals_gs_gp_5.2.csv
+
+data/wos/all_journals_gs_gp_5.2.xls
+
+data/wos/all_journals_gs_gp_5.3.csv
+
+data/wos/all_journals_gs_gp_5.3.xls
+
+data/wos/all_journals_gs_gp_6.csv
+
+data/wos/all_journals_gs_gp_6.xls
+
+data/Aug 23 PubMed/gs_Results_by_Year.csv
+
+data/Aug 23 PubMed/transgenic_Results_by_Year.csv
+
+images/Count of GS or GP papers published in journals.png
